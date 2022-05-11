@@ -29,3 +29,12 @@ os.system("cls")
 #         sum_of_digits += digit
 
 #     return product_of_digits - sum_of_digits
+
+#23. Input a number and print all the factors of that number
+
+# def factor(number: int):
+#     for i in range(1, number + 1):
+#         if number % i == 0:
+#             print(i)
+
+# factor(10)
