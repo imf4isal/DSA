@@ -1,4 +1,5 @@
 import os
+from audioop import reverse
 
 os.system("cls")
 
@@ -78,3 +79,21 @@ os.system("cls")
 ##############################################
 
 #17. Reverse A String
+
+# def reverse_string(str):
+#     # print(str[::-1])
+
+#     length = len(str)
+#     rever = ''
+#     # for i in reversed(range(0, length)):
+#     #     rever += str[i]
+
+#     for i in range(length - 1, -1, -1):
+#         rever += str[i]
+
+#     print(rever)
+
+# reverse_string("faisal")
+# # print numbers from 1 to 10 in reverse order
+#     for i in range(1, 11)[::-1]:
+#         print(i)
