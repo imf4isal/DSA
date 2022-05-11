@@ -97,3 +97,20 @@ os.system("cls")
 # # print numbers from 1 to 10 in reverse order
 #     for i in range(1, 11)[::-1]:
 #         print(i)
+
+#18. Find if a number is palindrome or not
+
+
+def ispalindrome(number):
+    num = str(number)
+
+    print(num)
+    ispalindromenum = False
+    for i in range(0, len(num)):
+        print(num[i])
+        if (num[i] == num[-i - 1]):
+            ispalindromenum = True
+    print(ispalindromenum)
+
+
+ispalindrome(2332)
