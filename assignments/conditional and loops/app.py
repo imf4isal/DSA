@@ -38,3 +38,43 @@ os.system("cls")
 #             print(i)
 
 # factor(10)
+
+#24. Take integer inputs till the user enters 0 and print the sum of all numbers
+
+# run = True
+# sum_of_nums = 0
+
+# while (run == True):
+#     num = int(input("Put a number: "))
+
+#     if (num == 0):
+#         run = False
+#     sum_of_nums += num
+
+# print(f"sum of your given numbers is {sum_of_nums}")
+
+# 25. Take integer inputs till the user enters 0 and print the largest number from
+
+# run = True
+# numbers = []
+
+# while (run == True):
+#     num = int(input("Put a number: "))
+
+#     if (num == 0):
+#         run = False
+#     numbers.append(num)
+
+# largest_num = max(numbers)
+# print(f"Largest number of your given numbers is {largest_num}")
+
+################
+############
+#####
+##########
+#intermediate problem
+
+##
+##############################################
+
+#17. Reverse A String
