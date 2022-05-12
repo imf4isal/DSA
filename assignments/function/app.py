@@ -44,8 +44,8 @@ os.system("cls")
 
 #4. [Write a program to print the sum of two numbers entered by user by defining your own method.]
 
-num1 = int(input("enter first number: "))
-num2 = int(input("enter second number: "))
+# num1 = int(input("enter first number: "))
+# num2 = int(input("enter second number: "))
 
 # def sum(num1, num2):
 #     return num1 + num2
@@ -54,27 +54,45 @@ num2 = int(input("enter second number: "))
 
 # product of two numbers
 
+# def product(num1, num2):
 
-def product(num1, num2):
+#     product1 = []
+#     product2 = []
+#     commonproduct = []
+#     for i in range(1, num1 + 1):
+#         if (num1 % i == 0):
+#             product1.append(i)
+#     for i in range(1, num2 + 1):
+#         if (num2 % i == 0):
+#             product2.append(i)
 
-    product1 = []
-    product2 = []
-    commonproduct = []
-    for i in range(1, num1 + 1):
-        if (num1 % i == 0):
-            product1.append(i)
-    for i in range(1, num2 + 1):
-        if (num2 % i == 0):
-            product2.append(i)
+#     for pro1 in product1:
+#         for pro2 in product2:
+#             if (pro1 == pro2):
+#                 commonproduct.append(pro1)
 
-    for pro1 in product1:
-        for pro2 in product2:
-            if (pro1 == pro2):
-                commonproduct.append(pro1)
+#     print(f"Product of {num1} is {tuple(product1)}")
+#     print(f"Product of {num2} is {tuple(product2)}")
+#     print(f"Common Product of {num1} and {num2} is {tuple(commonproduct)}")
 
-    print(f"Product of {num1} is {tuple(product1)}")
-    print(f"Product of {num2} is {tuple(product2)}")
-    print(f"Common Product of {num1} and {num2} is {tuple(commonproduct)}")
+# product(num1, num2)
 
+#is prime or not
 
-product(num1, num2)
+# number = int(input("Enter a number to check if it's prime or not: "))
+
+# def isPrime(num):
+
+#     prime = True
+#     for i in range(2, number):
+#         if (number % i == 0):
+#             prime = False
+#         else:
+#             i = i + 1
+
+#     if (prime == True):
+#         print(f"Your given number {num} is prime.")
+#     else:
+#         print(f"Your given number {num} is not a prime.")
+
+# isPrime(number)
