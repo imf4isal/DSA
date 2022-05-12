@@ -29,3 +29,15 @@ os.system("cls")
 #         print("Your given number is odd.")
 
 # evenorodd(num)
+
+#3. [A person is eligible to vote if his/her age is greater than or equal to 18. Define a method to find out if he/she is eligible to vote.]
+
+# age = int(input("Can you vote? Let's check. \nWhat is your age? "))
+
+# def isEligibleforVote(age):
+#     if age >= 18:
+#         print("You are eligible as a voter.")
+#     else:
+#         print("You are not eligible as a voter.")
+
+# isEligibleforVote(age)
