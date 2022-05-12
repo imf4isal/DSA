@@ -144,3 +144,28 @@ os.system("cls")
 #     print("This triplet is Pythagorean.")
 # else:
 #     print("This triplet is not Pythagorean.")
+
+#13. [Write a function that returns all prime numbers between two given numbers.]
+
+# print(
+#     "Check all prime numbers between two given numbers(including given numbers). Enter your two numbers."
+# )
+# number1 = int(input("Start: "))
+# number2 = int(input("End: "))
+
+# def primeBetweenTwo(number1, number2):
+#     primes = []
+
+#     for r in range(number1, number2 + 1):
+#         rPrime = True
+#         for i in range(2, r):
+#             if (r % i == 0):
+#                 rPrime = False
+#         if (rPrime == True):
+#             primes.append(r)
+
+#     print(
+#         f"prime numbers between {number1} and {number2} : {tuple(primes)}. \n Total: {len(primes)}"
+#     )
+
+# primeBetweenTwo(number1, number2)
