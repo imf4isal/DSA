@@ -1,4 +1,5 @@
 import os
+from re import A
 
 os.system("cls")
 
@@ -127,3 +128,19 @@ os.system("cls")
 #     print(ispalindromenum)
 
 # ispalindrome(number)
+
+#12. [Write a function to check if a given triplet is a Pythagorean triplet or not.]
+
+# print("check if a given triplet is a Pythagorean triplet or not.")
+# a = int(input("a: "))
+# b = int(input("b: "))
+# c = int(input("c: "))
+
+# aa = a * a
+# bb = b * b
+# cc = c * c
+
+# if (aa + bb == cc or bb + cc == aa or aa + cc == bb):
+#     print("This triplet is Pythagorean.")
+# else:
+#     print("This triplet is not Pythagorean.")
