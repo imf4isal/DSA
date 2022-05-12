@@ -96,3 +96,17 @@ os.system("cls")
 #         print(f"Your given number {num} is not a prime.")
 
 # isPrime(number)
+
+# factorial of a given number
+
+# number = int(input("Give a number to get it's factorial: "))
+
+# def factorial(number):
+#     factorial = 1
+#     if (number > 0):
+#         for i in range(1, number + 1):
+#             factorial *= i
+
+#     print(f"The factorial of your given number {number}! is {factorial}.")
+
+# factorial(number)
