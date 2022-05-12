@@ -110,3 +110,20 @@ os.system("cls")
 #     print(f"The factorial of your given number {number}! is {factorial}.")
 
 # factorial(number)
+
+# #is palindrome
+
+# number = int(input("enter a number to check if it's palindrome: "))
+
+# def ispalindrome(number):
+#     num = str(number)
+
+#     print(num)
+#     ispalindromenum = False
+#     for i in range(0, len(num)):
+#         print(num[i])
+#         if (num[i] == num[-i - 1]):
+#             ispalindromenum = True
+#     print(ispalindromenum)
+
+# ispalindrome(number)
