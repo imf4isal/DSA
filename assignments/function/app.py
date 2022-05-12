@@ -17,3 +17,15 @@ os.system("cls")
 #         return third
 
 # print(f"The max number of your given numbers is {max(first, second, third)}")
+
+#2. [Define a program to find out whether a given number is even or odd.]
+
+# num = int(input("Put a number: "))
+
+# def evenorodd(num):
+#     if (num % 2 == 0):
+#         print("Your given number is even.")
+#     else:
+#         print("Your given number is odd.")
+
+# evenorodd(num)
