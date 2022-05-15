@@ -46,3 +46,14 @@
 #         output.append(nums[i+n])
 
 #     return output
+
+#6 kids with greatest number of candies
+# def kidsWithCandies(self, candies: List[int], extraCandies: int) -> List[bool]:
+#     maximum = max(candies)
+#     output = []
+#     for i in candies:
+#         if(i+extraCandies >= maximum):
+#             output.append(True)
+#         else:
+#             output.append(False)
+#     return output
