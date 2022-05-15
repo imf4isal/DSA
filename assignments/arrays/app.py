@@ -13,3 +13,15 @@
 #     nums3 = nums + nums2
 
 #     return nums3
+
+# running sum of 1d array
+# def runningSum(self, nums: List[int]) -> List[int]:
+#     output = []
+    
+#     for i in range(0, len(nums)):
+#         sum = 0
+#         for j in range(0, i + 1):
+#             sum += nums[j]
+#         output.append(sum)
+#     return output
+
