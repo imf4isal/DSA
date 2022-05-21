@@ -57,3 +57,17 @@
 #         else:
 #             output.append(False)
 #     return output
+
+# 8. How Many Numbers Are Smaller Than the Current Number
+# def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
+#     output = []
+
+#     for numcurrent in nums:
+
+#         c = 0
+#         for num in nums:
+#             if num < numcurrent:
+#                 c = c + 1
+#         output.append(c)
+
+#     return output
