@@ -80,7 +80,7 @@
 
 #     return targetArray
 
-# 10. [Check if the Sentence Is Pangram]
+# 10. [Check if the Sentence Is Pangram](10m)
 # def checkIfPangram(self, sentence: str) -> bool:
 #     alpha = [
 #         "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n",
@@ -95,3 +95,18 @@
 #             if (alp == ltr):
 #                 output = True
 #     return output
+
+# 11. [Count Items Matching a Rule]
+
+# def countMatches(self, items: List[List[str]], ruleKey: str,
+#                  ruleValue: str) -> int:
+#     itm = ["type", "color", "name"]
+
+#     typ = itm.index(ruleKey)
+
+#     count = 0
+#     for item in items:
+#         if (item[typ] == ruleValue):
+#             count = count + 1
+
+#     return count
