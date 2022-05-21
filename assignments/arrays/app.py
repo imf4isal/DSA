@@ -122,3 +122,33 @@
 #         altitudes.append(altitudes[lastalt] + g)
 
 #     return max(altitudes)
+
+# 13. [Flipping an Image]
+# def flipAndInvertImage(self, image: List[List[int]]) -> List[List[int]]:
+
+#     output = []
+#     for img in image:
+#         flip = img[::-1]
+#         invert = []
+#         for n in flip:
+#             if (n == 0):
+#                 invert.append(1)
+#             else:
+#                 invert.append(0)
+
+#         output.append(invert)
+
+#     return output
+
+# def flipAndInvertImage(self, image: List[List[int]]) -> List[List[int]]:
+
+#     output = []
+#     for img in image:
+#         output.append(img[::-1])
+#     for i in output:
+#         for j in range(len(i)):
+#             if (i[j] == 1):
+#                 i[j] = 0
+#             else:
+#                 i[j] = 1
+#     return output
