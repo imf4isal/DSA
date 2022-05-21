@@ -58,7 +58,7 @@
 #             output.append(False)
 #     return output
 
-# 8. How Many Numbers Are Smaller Than the Current Number
+# 8. How Many Numbers Are Smaller Than the Current Number(10minutes)
 # def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
 #     output = []
 
@@ -71,3 +71,11 @@
 #         output.append(c)
 
 #     return output
+
+# 9. Create Target Array in the Given Order (15 minutes)
+# def createTargetArray(self, nums: List[int], index: List[int]) -> List[int]:
+#     targetArray = []
+#     for i, element in enumerate(index):
+#         targetArray.insert(element, nums[i])
+
+#     return targetArray
