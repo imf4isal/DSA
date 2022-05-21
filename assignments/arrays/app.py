@@ -110,3 +110,15 @@
 #             count = count + 1
 
 #     return count
+
+# 12. [Find the Highest Altitude]
+# def largestAltitude(self, gain: List[int]) -> int:
+
+#     altitudes = [0]
+
+#     for g in gain:
+
+#         lastalt = len(altitudes) - 1
+#         altitudes.append(altitudes[lastalt] + g)
+
+#     return max(altitudes)
