@@ -152,3 +152,17 @@
 #             else:
 #                 i[j] = 1
 #     return output
+
+# 18. [Add to Array-Form of Integer]
+# def addToArrayForm(self, num: List[int], k: int) -> List[int]:
+
+#     numStr = [str(int) for int in num]
+
+#     total = str(int("".join(numStr)) + k)
+
+#     output = []
+
+#     for i in total:
+#         output.append(i)
+
+#     return output
