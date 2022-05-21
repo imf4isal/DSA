@@ -79,3 +79,19 @@
 #         targetArray.insert(element, nums[i])
 
 #     return targetArray
+
+# 10. [Check if the Sentence Is Pangram]
+# def checkIfPangram(self, sentence: str) -> bool:
+#     alpha = [
+#         "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n",
+#         "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"
+#     ]
+
+#     sen = sentence.lower()
+
+#     output = False
+#     for alp in alpha:
+#         for ltr in sen:
+#             if (alp == ltr):
+#                 output = True
+#     return output
