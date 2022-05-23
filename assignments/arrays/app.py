@@ -178,3 +178,16 @@
 #                 output.append(i)
 #                 output.append(j)
 #     return output
+
+# 22. [Find N Unique Integers Sum up to Zero]
+# def sumZero(self, n: int) -> List[int]:
+
+#     output = []
+
+#     if (n % 2 != 0):
+#         output.append(0)
+
+#     for i in range(1, int(n / 2) + 1):
+#         output.append(i)
+#         output.append(-1 * i)
+#     return output
