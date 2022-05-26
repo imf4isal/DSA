@@ -191,3 +191,13 @@
 #         output.append(i)
 #         output.append(-1 * i)
 #     return output
+
+# total = 0
+# for i in range(1, 31):
+#     total += 2**i
+
+# print(total)
+
+# 26. [Plus One]
+# nafterplusone = int(''.join(map(str, digits))) + 1
+# print(list(str(nafterplusone)))
