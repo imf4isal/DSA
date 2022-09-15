@@ -215,3 +215,40 @@
 #         else:
 #             i = i+1
 #     return i
+
+
+def pos(position) -> int:
+    firsttype = position[0]
+
+    count = 0
+
+    # if(len(position) < 1 and len(position) > 100):
+    #     count = 1
+    #     return count
+    print(10**9)
+    for i in range(1, len(position)):
+        if (position[i] > 10**8 or position[i] < 1):
+            count = 1
+            break
+        elif (position[i] != firsttype):
+            count += position[i] - 2
+        else:
+            count = count
+
+    print(count)
+
+
+pos([1, 1000000000])
+
+
+def minCostToMoveChips(self, position: List[int]) -> int:
+    odd = 0
+    even = 0
+
+    for i in range(0, len(position)):
+        if (position[i] % 2 == 0):
+            even += 1
+        else:
+            odd += 1
+
+    return min(odd, even)
