@@ -15,6 +15,7 @@
 #     oneton(n-1)
 #     print(n)
 
+#concept: n-- and --n are not same.
 # oneton(5)
 
 #print n to 1 and 1 to n both
