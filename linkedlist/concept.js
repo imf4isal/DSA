@@ -15,6 +15,10 @@ a.next = b;
 b.next = c;
 c.next = d;
 
+/////////////////////////////
+// print all the value in the linked list
+//////////////////////////////
+
 // iteration
 const printLinkedList = head => {
   let current = head;
