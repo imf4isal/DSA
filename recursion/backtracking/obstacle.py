@@ -14,7 +14,7 @@ def printpath(p, maze, row, col):
         
 ar = [
     [True, True, True],
-    [True, False, True],
+    [True, False, False],
     [True, True, True]
 ]
 printpath("", ar, 0, 0)
