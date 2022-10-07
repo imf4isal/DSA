@@ -7,20 +7,25 @@ class Node {
 }
 
 const treeinclude = (root, target) => {
-  if (!root) return [];
-  const queue = [root];
-  while (queue.length > 0) {
-    const current = queue.shift();
+  if (root === null) return false;
+  if (root.val === target) return true;
+  return treeinclude(root.left, target) || treeinclude(root.right, target);
 
-    if (current.val === target) {
-      return true;
-    }
+  // bread first
+  // if (!root) return [];
+  // const queue = [root];
+  // while (queue.length > 0) {
+  //   const current = queue.shift();
 
-    if (current.left) queue.push(current.left);
-    if (current.right) queue.push(current.right);
-  }
+  //   if (current.val === target) {
+  //     return true;
+  //   }
 
-  return false;
+  //   if (current.left) queue.push(current.left);
+  //   if (current.right) queue.push(current.right);
+  // }
+
+  // return false;
 };
 
 const a = new Node("a");
